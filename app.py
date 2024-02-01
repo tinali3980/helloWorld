@@ -12,5 +12,5 @@ if __name__ == '__main__':
 
 @app.route('/hello')
 def hello():
-    return render_template('Hello World from Tina Li!')
+    return render_template('index.html')
 
