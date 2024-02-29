@@ -1,0 +1,36 @@
+/*style for all paragraphs*/
+p {
+    font-size: 13px;
+    color: cornflowerblue;
+}
+
+/*style for all level 2 headers*/
+h2 {
+    font-size: 17px;
+    color: darkblue;
+    font-weight: bold;
+}
+
+/*creating border for tables*/
+table, td, th{
+    border-style: solid;
+    border-color: dodgerblue;
+}
+
+/*styling special paragraph*/
+p#special-paragraph {
+    font-style: italic;
+    color: rebeccapurple;
+}
+
+/*CSS rule block class attribute*/
+p.intro {
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* CSS rule block width and height for img */
+.logo {
+    width: 267px;
+    height: 72px;
+}
